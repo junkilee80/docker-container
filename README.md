@@ -14,6 +14,7 @@
 - git clone 후, docker compose up -d 명령어를 통해 테스트 환경을 실행하였으나, ‘! php The requested image's platform (linux/amd64) does not match the detected host platform (linux/arm64/v8)’라는 메시지가 떴다.
 - 따라서 AWS의 EC2를 통해 우분투 서버를 생성하여 진행하였다.
 - 인스턴스를 생성하고 실행 환경을 구성한 후, docker compose up -d 명령어를 사용하였더니, 다음과 같이 접속이 가능하였다.
+
 ![기본 접속 화면](1.png)
 
 - 처음에 접속이 되지 않고 무한 로딩이 걸려 AWS의 방화벽을 열어주는 작업을 진행해야 했다.
